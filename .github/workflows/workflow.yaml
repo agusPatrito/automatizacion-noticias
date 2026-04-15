@@ -33,6 +33,6 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: "Noticias del día - Argentina"
-          to: "ffranpatrito73@gmail.com"
+          to: "aguspatrito@gmail.com"
           from: "Noticiero Automático"
           body: file://informe_noticias.txt
